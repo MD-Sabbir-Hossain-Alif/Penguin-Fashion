@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="sabbir official">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penguin Fashion</title>
+
+    <link rel="icon" href="assets/icons/favicon-2.png" type="image/png">
+
+    <!-- Tailwind -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- header + bannar section  -->
+    <header class="bg-[#fffbf0] h-screen relative">
+
+        <!-- Navbar -->
+        <nav class="flex justify-between items-center w-[87.5%] container mx-auto py-6 md:py-8">
+            <img class="w-[225px]" src="assets/icons/logo.png" alt="Penguin fashion logo">
+
+            <ul class="justify-center gap-4 font-medium text-[#3C3C3C] hidden md:flex">
+                <li>Home</li>
+                <li>Product</li>
+                <li>About us</li>
+                <li>Contact us</li>
+            </ul>
+
+            <span class="block md:hidden">
+                <i class="fa-solid fa-bars"></i>
+            </span>
+        </nav>
+
+        <!-- Banner -->
+        <section
+            class="flex flex-col md:flex-row justify-between items-center md:gap-4 w-[87.5%] container mx-auto mt-0 md:mt-12">
+            <div>
+                <h1 class="text-[60px] md:text-[80px] text-[#FABE4C] leading-15 md:leading-20">Be the Penguins</h1>
+                <h1 class="text-[60px] md:text-[80px] text-[#363958] leading-15 md:leading-20">of Winter</h1>
+
+                <p class="leading-[26px]">
+                    Lorem Ipsum is simply dummy text of the printing<br>
+                    and typesetting industry.
+                </p>
+
+                <button class="btn-bg-color w-[170px] h-[60px] text-white font-medium mt-4 cursor-pointer">
+                    <i class="fa-solid fa-cart-arrow-down"></i> BUY NOW
+                </button>
+            </div>
+
+            <div class="max-w-[290px] max-h-[427px] md:max-w-full md:max-h-full"><img class=" w-full h-full object-contain" src="assets/images/model.png" alt="Winter model"></div>
+        </section>
+
+        <img class="absolute -top-22 left-[36%] hidden md:block" src="assets/icons/banner_dot.png" alt="">
+    </header>
+
+    <!-- woman jacket -->
+    <section class="w-[87.5%] container mx-auto my-20">
+        <h2 class="text-[48px] text-center">WOMAN JACKET</h2>
+        <div id="content" class="flex flex-col flex-wrap md:flex-row justify-between items-center gap-8 space-y-4">
+            <div id="card" class="w-[343px] md:w-[370px] h-[550px] p-[18px] bg-white shadow space-y-2 rounded-[20px]">
+                <div class="w-[304] md:w-[334px] h-[327px]"><img class="w-full h-full object-contain rounded-[20px] bg-[#f1f1f1]  md:p-5"
+                        src="assets/images/jacket-1.png" alt=""></div>
+                <h4 class="text-[28px] font-bold">Yellow Coat Jacket</h4>
+                <p class="leading-[26px] text-[#363958]">Lorem Ipsum is simply dummy text of the
+                printing and typesetting industry.</p>
+                <div class="flex gap-10 justify-between items-center">
+                    <h4 class="text-[36px] font-black leading-[42px] text-[#fabe4c]">$234</h4>
+                    <button class="btn-bg-color w-[170px] h-[60px] text-white font-medium cursor-pointer">
+                        <i class="fa-solid fa-cart-arrow-down"></i> BUY NOW
+                    </button>
+                </div>
+            </div>
+            <div id="card" class="w-[343px] md:w-[370px] h-[550px] p-[18px] bg-white shadow space-y-2 rounded-[20px]">
+                <div class="w-[304] md:w-[334px] h-[327px]"><img class="w-full h-full object-contain rounded-[20px] bg-[#f1f1f1] p-5"
+                        src="assets/images/jacket-2.png" alt=""></div>
+                <h4 class="text-[28px] font-bold">Ladies Jacket</h4>
+                <p class="leading-[26px] text-[#363958]">Lorem Ipsum is simply dummy text of the
+                    printing and typesetting industry.</p>
+                <div class="flex gap-10 justify-between items-center">
+                    <h4 class="text-[36px] font-black leading-[42px] text-[#fabe4c]">$234</h4>
+                    <button class="btn-bg-color w-[170px] h-[60px] text-white font-medium cursor-pointer">
+                        <i class="fa-solid fa-cart-arrow-down"></i> BUY NOW
+                    </button>
+                </div>
+            </div>
+            <div id="card" class="w-[343px] md:w-[370px] h-[550px] p-[18px] bg-white shadow space-y-2 rounded-[20px]">
+                <div class="w-[304] md:w-[334px] h-[327px]"><img class="w-full h-full object-contain rounded-[20px] bg-[#f1f1f1] p-5"
+                        src="assets/images/jacket-3.png" alt=""></div>
+                <h4 class="text-[28px] font-bold">Woman Leather Jacket</h4>
+                <p class="leading-[26px] text-[#363958]">Lorem Ipsum is simply dummy text of the
+                    printing and typesetting industry.</p>
+                <div class="flex gap-10 justify-between items-center">
+                    <h4 class="text-[36px] font-black leading-[42px] text-[#fabe4c]">$234</h4>
+                    <button class="btn-bg-color w-[170px] h-[60px] text-white font-medium cursor-pointer">
+                        <i class="fa-solid fa-cart-arrow-down"></i> BUY NOW
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- man jacket -->
+    <section class="w-[87.5%] container mx-auto my-20">
+        <h2 class="text-[48px] text-center">MAN JACKET</h2>
+        <div id="content" class="flex flex-col flex-wrap md:flex-row justify-between items-center gap-8 space-y-4">
+            <div id="card" class="w-[343px] md:w-[370px] h-[550px] p-[18px] bg-white shadow space-y-2 rounded-[20px]">
+                <div class="w-[304] md:w-[334px] h-[327px]"><img
+                        class="w-full h-full object-contain rounded-[20px] bg-[#f1f1f1] p-5" src="assets/images/jacket-4.png"
+                        alt=""></div>
+                <h4 class="text-[28px] font-bold">Snowboard Jacket Mens</h4>
+                <p class="leading-[26px] text-[#363958]">Lorem Ipsum is simply dummy text of the
+                    printing and typesetting industry.</p>
+                <div class="flex gap-10 justify-between items-center">
+                    <h4 class="text-[36px] font-black leading-[42px] text-[#fabe4c]">$234</h4>
+                    <button class="btn-bg-color w-[170px] h-[60px] text-white font-medium cursor-pointer">
+                        <i class="fa-solid fa-cart-arrow-down"></i> BUY NOW
+                    </button>
+                </div>
+            </div>
+            <div id="card" class="w-[343px] md:w-[370px] h-[550px] p-[18px] bg-white shadow space-y-2 rounded-[20px]">
+                <div class="w-[304] md:w-[334px] h-[327px]"><img class="w-full h-full object-contain rounded-[20px] bg-[#f1f1f1] p-5"
+                        src="assets/images/jacket-5.png" alt=""></div>
+                <h4 class="text-[28px] font-bold">Man Leather Jackets</h4>
+                <p class="leading-[26px] text-[#363958]">Lorem Ipsum is simply dummy text of the
+                    printing and typesetting industry.</p>
+                <div class="flex gap-10 justify-between items-center">
+                    <h4 class="text-[36px] font-black leading-[42px] text-[#fabe4c]">$234</h4>
+                    <button class="btn-bg-color w-[170px] h-[60px] text-white font-medium cursor-pointer">
+                        <i class="fa-solid fa-cart-arrow-down"></i> BUY NOW
+                    </button>
+                </div>
+            </div>
+            <div id="card" class="w-[343px] md:w-[370px] h-[550px] p-[18px] bg-white shadow space-y-2 rounded-[20px]">
+                <div class="w-[304] md:w-[334px] h-[327px]"><img class="w-full h-full object-contain rounded-[20px] bg-[#f1f1f1] p-5"
+                        src="assets/images/jacket-6.png" alt=""></div>
+                <h4 class="text-[28px] font-bold">Man Casual Jackets</h4>
+                <p class="leading-[26px] text-[#363958]">Lorem Ipsum is simply dummy text of the
+                    printing and typesetting industry.</p>
+                <div class="flex gap-10 justify-between items-center">
+                    <h4 class="text-[36px] font-black leading-[42px] text-[#fabe4c]">$234</h4>
+                    <button class="btn-bg-color w-[170px] h-[60px] text-white font-medium cursor-pointer">
+                        <i class="fa-solid fa-cart-arrow-down"></i> BUY NOW
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- facilities section -->
+    <section class="w-[87.5%] container mx-auto my-35">
+        <div id="facilities" class="flex flex-col-reverse md:flex-row gap-8 justify-between items-center">
+            <div id="content-box" class="space-y-4">
+                <div id="box" class="flex flex-col md:flex-row text-center md:text-left justify-between items-center p-7 w-[343px] h-60 md:w-[489px] md:h-[135px] gap-6 md:gap-9 shadow rounded-[20px]">
+                    <img class="w-[78px] h-[82px]" src="assets/icons/house.png" alt="">
+                    <div>
+                        <h4 class="text-[#363958] text-[24px] font-bold mb-2">Find the Perfect Fit</h4>
+                        <p class="text-[#3e3e3e] leading-[26px]">Everybody is different, which is why we
+                        offer styles for every body.</p>
+                    </div>
+                </div>
+
+                <div id="box" class="flex flex-col md:flex-row text-center md:text-left justify-between items-center p-7 w-[343px] h-60 md:w-[489px] md:h-[135px] gap-6 md:gap-9 shadow rounded-[20px]">
+                    <img class="w-[78px] h-[82px]" src="assets/icons/box.png" alt="">
+                    <div>
+                        <h4 class="text-[#363958] text-[24px] font-bold mb-2">Free Exchanges</h4>
+                        <p class="text-[#3e3e3e] leading-[26px]">One of the many reasons you can shop
+                        with peace of mind.</p>
+                    </div>
+                </div>
+
+                <div id="box" class="flex flex-col md:flex-row text-center md:text-left justify-between items-center p-7 w-[343px] h-60 md:w-[489px] md:h-[135px] gap-6 md:gap-9 shadow rounded-[20px]">
+                    <img class="w-[78px] h-[82px]" src="assets/icons/question.png" alt="">
+                    <div>
+                        <h4 class="text-[#363958] text-[24px] font-bold mb-2">Contact Our Seller</h4>
+                        <p class="text-[#3e3e3e] leading-[26px]">They are here to help you. That's quite
+                        literally what we pay them for.</p>
+                    </div>
+                </div>
+            </div>
+            <div id="img-box" class="max-w-[750px]">
+                <img class="w-full object-contain" src="assets/images/shopping.png" alt="">
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

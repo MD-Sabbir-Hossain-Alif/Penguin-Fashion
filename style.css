@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Bebas Neue", sans-serif;
+}
+
+/* Button gradient fix */
+.btn-bg-color {
+    border-radius: 10px;
+    background: linear-gradient(180deg, rgba(164, 188, 70, 1), rgba(132, 160, 25, 1));
+}
